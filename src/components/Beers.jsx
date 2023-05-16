@@ -67,7 +67,9 @@ const Beers = () => {
                     textAlign="center"
                     fontSize="sm"
                   >
-                    Contributed by: {beer.contributed_by.replace(/<.*?>/g, "")}
+                    {beer.contributed_by
+                      ? beer.contributed_by.replace(/<.*>/, "")
+                      : "Unknown"}
                   </Text>
                 </Flex>
               </Box>

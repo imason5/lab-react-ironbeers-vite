@@ -8,7 +8,7 @@ const HomePage = () => {
         className="home-card"
         to="/beers"
         style={{
-          backgroundImage: `url('../../public/assets/beers.png')`,
+          backgroundImage: `url('/assets/beers.png')`,
         }}
       >
         <h2>All Beers</h2>
@@ -17,7 +17,7 @@ const HomePage = () => {
         className="home-card"
         to="/random-beer"
         style={{
-          backgroundImage: `url('../../public/assets/random-beer.png')`,
+          backgroundImage: `url('/assets/random-beer.png')`,
         }}
       >
         <h2>Random Beer</h2>
@@ -26,7 +26,7 @@ const HomePage = () => {
         className="home-card"
         to="/new-beer"
         style={{
-          backgroundImage: `url('../../public/assets/new-beer.png')`,
+          backgroundImage: `url('/assets/new-beer.png')`,
         }}
       >
         <h2>New Beer</h2>
